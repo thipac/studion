@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studion</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tread Music</title>
   </head>
   <body>
-    <nav>
-      <h1>Studi<span>on</span><span>Eventos</span></h1>
-      <ul>
+    <nav class="navbar">
+      <h1 class="logo-treadmusic">
+        Tread<span class="copy-primary">Music</span>
+        <span class="logo-tread__subtitle">Eventos</span>
+      </h1>
+      <ul class="navbar__links">
         <li>
           <a href="#empresa"> Empresa </a>
         </li>
         <li>
-          <a href="#eventos"> Eventos </a>
+          <a href="#Shows"> Shows </a>
+        </li>
+        <li>
+          <a href="#bandas"> Bandas </a>
         </li>
         <li>
           <a href="#galeria"> Galeria </a>
-        </li>
-        <li>
-          <a href="#depoimentos"> Depoimentos </a>
         </li>
         <li>
           <a href="#contatos"> Contatos </a>
@@ -30,9 +34,12 @@
     <header>
       <div id="slider">
         <div class="slide">
-          <h6><span>Próximo evento</span> - Dia 25 de setembro às 19h.</h6>
-          <h2><span>Creative</span>Minds</h2>
-          <button>Saiba Mais</button>
+          <img class="slide__background-image" src="./images/black.jpg" alt="show_ao_vivo">
+          <div class="slide__copy">
+             <h6><span class="copy-primary">Próximo Show</span> - Dia 25 de setembro às 19h.</h6>
+            <h2><span class="copy-primary">Great</span>Songs</h2>
+            <button class="btn btn--slide">Saiba Mais</button>
+          </div>
         </div>
       </div>
     </header>
@@ -40,23 +47,23 @@
       <section>
         <ul>
           <li>
-            <h3>+ de 500</h3>
-            eventos realizados
+            <h3>+ de 100</h3>
+            Shows realizados
           </li>
           <li>
             <h3>+ de 1.000.000</h3>
             de ingressos vendidos
           </li>
           <li>
-            <h3>+ de 300</h3>
-            empresas atentidas
+            <h3>+ de 400</h3>
+            Bandas apresentadas
           </li>
         </ul>
       </section>
       <section>
         <div>
-          <img src="./images/institutional.jpg" alt="Uma Pessoa">
-          <h6>Fazemos seu evento acontecer</h5>
+          <img src="./images/music_studio.jpg" alt="Estudio de Musica" class="studio_musica">
+          <h6>Fazemos você decolar!</h5>
           <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero id
@@ -69,15 +76,15 @@
       </section>
       <section>
         <div>
-          <h6>Você informa a temática e nós planejamos um evento com tecnologia e</h4>
-          <h2><span>Muito+</span>Diversão</h2>
+          <h6>Musica é nossa vida e queremos que você faça parte dela!</h4>
+          <h2><span>Muito+</span>Musica</h2>
           <button>Fazer cotação</button>
 
         </div>
       </section>
     </main>
     <footer>
-      <h2>Studi<span>on</span><span>Eventos</span></h2>
+      <h2>Tread<span>Music</span><span>Studio</span></h2>
       <form action="">
         <label for="">receba news e promoções</label>
         <input type="email" placeholder="e-mail">
@@ -90,7 +97,7 @@
       </ul>
       <hr>
       <p>
-        <Small>Studi <span>ON</span> - Todos direitos reservados</Small>
+        <small>Tread <span>Music</span>- Todos direitos reservados</small>
       </p>
     </footer>
   </body>
