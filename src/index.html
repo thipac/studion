@@ -9,11 +9,12 @@
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="logo-treadmusic">
-        Tread<span class="copy-primary">Music</span>
-        <span class="logo-tread__subtitle">Eventos</span>
-      </h1>
-      <ul class="navbar__links">
+      <div class="container navbar__container">
+       <h1 class="logo-treadmusic">
+         Tread<span class="copy-primary">Music</span>
+         <span class="logo-tread__subtitle">Eventos</span>
+        </h1>
+       <ul class="navbar__links">
         <li>
           <a href="#empresa"> Empresa </a>
         </li>
@@ -29,8 +30,9 @@
         <li>
           <a href="#contatos"> Contatos </a>
         </li>
-      </ul>
-    </nav>
+        </ul>
+      </div>
+  </nav>
     <header>
       <div id="slider">
         <div class="slide">
@@ -44,25 +46,28 @@
       </div>
     </header>
     <main>
-      <section>
-        <ul>
+      <section id="counter">
+        <ul class="container counter__container">
           <li>
-            <h3>+ de 100</h3>
-            Shows realizados
+            <h3>+ de 100
+              <small>Shows realizados</small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 1.000.000</h3>
-            de ingressos vendidos
+            <h3>+ de 1.000.000 
+              <small>de ingressos vendidos</small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 400</h3>
-            Bandas apresentadas
+            <h3>+ de 400 
+              <small>Bandas apresentadas</small>
+            </h3>
           </li>
         </ul>
       </section>
-      <section>
-        <div>
-          <img src="./images/music_studio.jpg" alt="Estudio de Musica" class="studio_musica">
+      <section class="container institutional">
+        <img src="./images/cantor.jpg" alt="cantor" class="institutional__image">
+        <div class="institutional__copy">
           <h6>Fazemos você decolar!</h5>
           <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
           <p>
@@ -71,7 +76,7 @@
             asperiores maiores voluptas, dignissimos sed impedit facilis
             reiciendis iusto est.
           </p>
-          <button>Saiba Mais</button>
+          <button class="btn btn--institutional">Saiba Mais</button>
         </div>
       </section>
       <section>
